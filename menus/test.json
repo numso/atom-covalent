@@ -1,0 +1,42 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Covalent",
+          "submenu": [
+            {
+              "label": "Create + Join Project",
+              "command": "covalent:create-project"
+            },
+            {
+              "label": "Create + Join File",
+              "command": "covalent:create-file"
+            },
+            {
+              "label": "Join Project/File",
+              "command": "covalent:join"
+            },
+            {
+              "label": "Leave Project/File",
+              "command": "covalent:leave"
+            },
+            {
+              "label": "Remove Project/File",
+              "command": "covalent:delete"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "context-menu": {
+    ".tree-view": [
+      {
+        "label": "Create + Join File",
+        "command": "covalent:create-file"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "atom-text-editor": {
+    "ctrl-alt-cmd-c": "covalent:create-project",
+    "ctrl-alt-cmd-a": "covalent:create-file",
+    "ctrl-alt-cmd-j": "covalent:join",
+    "ctrl-alt-cmd-b": "covalent:leave",
+    "ctrl-alt-cmd-d": "covalent:delete"
+  }
+}
