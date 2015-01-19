@@ -1,6 +1,11 @@
 #Atom-Covalent
 
-Saw the [atom-firepad] project and loved it. There were a couple quirks though. When I dug into the code to fix them, I found it was all coffeescript :(. I'm creating a new project so I 1) can learn how to make atom packages and 2) don't have to deal with coffeescript. After that, I do want to take it a lot farther than the current firepad package has gone.
+Saw the [atom-firepad] project and loved it. There were a couple quirks though. When I dug into the code to fix them, I found it was all coffeescript :(. I'm creating a new project so that
+
+1. I can learn how to make atom packages and
+2. I don't have to deal with coffeescript.
+
+After that, I do want to take it a lot farther than the current firepad package has gone.
 
 Name comes from this [post] by [bisma]. Thanks!
 
@@ -14,9 +19,8 @@ Name comes from this [post] by [bisma]. Thanks!
  - Clear indication as to which files are being shared (and their key) in an unobtrusive way
 
 ###Beyond
-
 - Share a file (current file)
-- Share a workspace (everything you have open in a tab)
+- Share a workspace (every tab you have open)
 - Share a project (everything in your project)
 - Save file on all shared computers on save (to trigger things like webpack and live-reload)
 
