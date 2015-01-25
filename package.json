@@ -3,9 +3,6 @@
   "dependencies": {
     "6to5": "2.12.6",
     "firebase": "2.1.1",
-    "firepad": "firebase/firepad#de86863295",
-    "lodash": "2.4.1",
-    "react": "0.12.2",
-    "react-atom-fork": "0.11.4"
+    "lodash": "2.4.1"
   }
 }
