@@ -11,18 +11,19 @@ Name comes from this [post] by [bsima]. Thanks!
 
 ###Version One
 - Feature Parity with [atom-firepad] with bug fixes:
- - Show shared cursors
- - Auto-generate share IDs
- - Ability to specify your own firebase / auth token
- - Ability to share/unshare multiple files
- - Disallow sharing the same file twice
- - Clear indication as to which files are being shared (and their key) in an unobtrusive way
+ - [-] Show shared cursors/selections (remove cursors/selections on leave)
+ - [x] Auto-generate share IDs
+ - [-] Ability to specify your own firebase / auth token (still need to honor auth token)
+ - [x] Ability to share/unshare multiple files
+ - [x] Disallow sharing the same file twice
+ - [-] Clear indication as to which files are being shared (and their key) in an unobtrusive way (hide msg on lost focus)
+ - [ ] Display better error msgs
 
 ###Beyond
-- Share a file (current file)
-- Share a workspace (every tab you have open)
-- Share a project (everything in your project)
-- Save file on all shared computers on save (to trigger things like webpack and live-reload)
+- [x] Share a file (current file)
+- [ ] Share a workspace (every tab you have open)
+- [ ] Share a project (everything in your project)
+- [ ] Save file on all shared computers on save (to trigger things like webpack and live-reload)
 
 [post]: https://news.ycombinator.com/item?id=7317042
 [bsima]: https://news.ycombinator.com/user?id=bsima
