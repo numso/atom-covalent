@@ -2,7 +2,7 @@
   "name": "covalent",
   "description": "A plugin to share your editor for collaborative coding.",
   "repository": "https://github.com/numso/atom-covalent",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "engines": {
     "atom": ">=0.177.0"
   },
