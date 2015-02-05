@@ -1,6 +1,22 @@
 # Atom-Covalent
 
-Saw the [atom-firepad] project and loved it. There were a couple quirks though. When I dug into the code to fix them, I found it was all coffeescript :(. I'm creating a new project so that
+A plugin to share your editor for collaborative coding.
+
+### Usage
+
+Firstly: register for a firebase account, go to atom settings, and put in a firebase url to host your projects.
+
+- `Covalent: Create File` shares the currently opened editor with a random id
+- `Covalent: Join` prompts you for a share id and joins that share with the current editor.
+- `Covalent: Leave` leaves the sharing session for the current editor.
+
+Whenever the editor you are using is being shared, the id with which it is being shared is below in the status bar.
+
+Careful when joining. The contents of your currently opened editor will be overwritten by whatever's being shared.
+
+### Motivation
+
+I saw the [atom-firepad] project and loved it. There were a couple quirks though. When I dug into the code to fix them, I found it was all coffeescript :(. I'm creating a new project so that:
 
 1. I can learn how to make atom packages and
 2. I don't have to deal with coffeescript.
@@ -24,7 +40,7 @@ Name comes from this [post] by [bsima]. Thanks!
 - [ ] If no Firebase URL exists, use a default?
 - [ ] Honor Firebase Auth Token
 - [x] Hide sharing msg on blur
-- [ ] multiple pane view of same file is NOT same editor...
+- [ ] multiple pane view of same file is NOT same editor... (buffer's are the same though)
 - [ ] If the cursor is on column 1, another cursor is drawn at the end of the previous line
 - [ ] Unable to draw cursor at column 1 row 1
 - [ ] If you clear a selection by hitting right or left, selection isn't cleared in shared editors
