@@ -4,8 +4,6 @@ A plugin to share your editor for collaborative coding.
 
 ### Usage
 
-Firstly: register for a firebase account, go to atom settings, and put in a firebase url to host your projects.
-
 - `Covalent: Create File` shares the currently opened editor with a random id
 - `Covalent: Join` prompts you for a share id and joins that share with the current editor.
 - `Covalent: Leave` leaves the sharing session for the current editor.
@@ -37,7 +35,7 @@ Name comes from this [post] by [bsima]. Thanks!
 
 ### Bugs
 - [x] Remove cursors/selections on covalent:leave
-- [ ] If no Firebase URL exists, use a default?
+- [x] If no Firebase URL exists, use a default?
 - [ ] Honor Firebase Auth Token
 - [x] Hide sharing msg on blur
 - [ ] multiple pane view of same file is NOT same editor... (buffer's are the same though)
