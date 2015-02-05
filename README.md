@@ -23,7 +23,8 @@ Name comes from this [post] by [bsima]. Thanks!
 - [x] Remove cursors/selections on covalent:leave
 - [ ] If no Firebase URL exists, use a default?
 - [ ] Honor Firebase Auth Token
-- [ ] Hide sharing msg on blur
+- [x] Hide sharing msg on blur
+- [ ] multiple pane view of same file is NOT same editor...
 - [ ] If the cursor is on column 1, another cursor is drawn at the end of the previous line
 - [ ] Unable to draw cursor at column 1 row 1
 - [ ] If you clear a selection by hitting right or left, selection isn't cleared in shared editors
